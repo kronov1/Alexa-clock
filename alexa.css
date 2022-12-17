@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300;400;500;600&display=swap');@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Nunito:wght@300;400;500;600&display=swap');
+
+#tela {
+    width: 612px;
+    height: 280px;
+    background-image: url(imagens/fundo.jpg);
+    position: absolute;
+    top: 50vh;
+    left: 50%;
+    margin-left: -306px;
+    margin-top: -140px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+    border-radius: 4px;
+}
+
+#conteudo-canto {
+    padding: 35px 40px;
+}
+
+header {
+    display: block;
+}
+
+#cloud {
+    width: 34px;
+}
+
+.temperatura {
+    position: absolute;
+    left: 12.4%;
+    top: 12.3%;
+}
+
+.texto {
+    font-family: Nunito, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+#conteudo-principal {
+    position: absolute;
+    left: 19%;
+    bottom: 3%;
+}
+
+.hora {
+    font-size: 150px;
+    position: absolute;
+    bottom: 14px;
+}
+
+.texto {
+    font-family: Nunito, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.data {
+    font-weight: bold;
+    position: relative;
+    bottom: 30px;
+    left: 34%;
+}
+
+.texto {
+    font-family: Nunito, sans-serif;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
